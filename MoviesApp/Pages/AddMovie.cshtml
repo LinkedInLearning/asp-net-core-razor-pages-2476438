@@ -9,18 +9,18 @@
 
 <div class="row">
     <div class="col-md-6 offset-3">
-        <form>
+        <form method="post">
             <div class="mb-3">
                 <label for="title" class="form-label">Title</label>
-                <input type="email" class="form-control" id="title" placeholder="Movie title">
+                <input name="Title" type="text" class="form-control" id="title" placeholder="Movie title">
             </div>
             <div class="mb-3">
                 <label for="rate" class="form-label">Rate</label>
-                <input type="number" min="1" max="10" class="form-control" id="rate" placeholder="9">
+                <input name="Rate" type="number" min="1" max="10" class="form-control" id="rate" placeholder="9">
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea class="form-control" id="description" rows="3"></textarea>
+                <textarea name="Description" class="form-control" id="description" rows="3"></textarea>
             </div>
 
             <button type="submit" class="btn btn-success">Add Movie</button>
