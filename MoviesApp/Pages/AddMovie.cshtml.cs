@@ -14,6 +14,11 @@ namespace MoviesApp.Pages
         [BindProperty]
         public string Description { get; set; }
 
+        //public void OnGetMyOnClick()
+        //{
+        //    string stopHere = "";
+        //}
+
         public void OnGet()
         {
             Title = "Welcome";
