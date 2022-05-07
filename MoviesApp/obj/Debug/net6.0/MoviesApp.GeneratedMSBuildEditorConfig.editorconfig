@@ -19,10 +19,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Author/source/repos/RazorPages/asp-net-core-razor-pages-2476438/MoviesApp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Author/source/repos/RazorPages/asp-net-core-razor-pages-2476438/MoviesApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -33,10 +29,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Author/source/repos/RazorPages/asp-net-core-razor-pages-2476438/MoviesApp/Pages/Movies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Author/source/repos/RazorPages/asp-net-core-razor-pages-2476438/MoviesApp/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Author/source/repos/RazorPages/asp-net-core-razor-pages-2476438/MoviesApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
