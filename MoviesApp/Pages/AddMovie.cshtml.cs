@@ -6,17 +6,17 @@ namespace MoviesApp.Pages
 {
     public class AddMovieModel : PageModel
     {
-        //[BindProperty]
-        //public string Title { get; set; }
-
-        //[BindProperty]
-        //public int Rate { get; set; }
-
-        //[BindProperty]
-        //public string Description { get; set; }
+        [BindProperty]
+        public string Title { get; set; }
 
         [BindProperty]
-        public Movie Movie { get; set; }
+        public int Rate { get; set; }
+
+        [BindProperty]
+        public string? Description { get; set; }
+
+        //[BindProperty]
+        //public Movie Movie { get; set; }
 
         //public void OnGetMyOnClick()
         //{
@@ -30,11 +30,16 @@ namespace MoviesApp.Pages
 
         public IActionResult OnPost()
         {
-            //string value = $"{Title} - {Rate} - {Description}";
-            string value = $"{Movie.Title} - {Movie.Rate} - {Movie.Description}";
+            string value = $"{Title} - {Rate} - {Description}";
+            //string value = $"{Movie.Title} - {Movie.Rate} - {Movie.Description}";
 
-            return Page();
-            //return Redirect("Movies");
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            //return Page();
+            return Redirect("Movies");
         }
     }
 }
