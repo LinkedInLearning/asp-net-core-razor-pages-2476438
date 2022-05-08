@@ -1,4 +1,4 @@
-﻿@page "{id}"
+﻿@page "{id:int}"
 @model MoviesApp.Pages.MovieModel
 @{
     ViewData["Title"] = "Movie details";
@@ -8,12 +8,12 @@
 
 <div class="card">
     <div class="card-header">
-        Movie
+        Movie - @Model.Movie?.Id
     </div>
     <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">8/10</p>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">@Model.Movie?.Title</h5>
+        <p class="card-text">@Model.Movie?.Rate/10</p>
+        <p class="card-text">@Model.Movie?.Description</p>
         <a href="/Movies" class="btn btn-primary">Show all</a>
     </div>
 </div>
