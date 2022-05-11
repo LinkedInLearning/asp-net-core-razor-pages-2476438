@@ -7,8 +7,9 @@ using MoviesApp.Services;
 
 namespace MoviesApp.Pages
 {
-    [Authorize(Roles = "Admin,Admin1,Admin2")]
-    [Authorize(Roles = "Manager")]
+    //[Authorize(Roles = "Admin,Admin1,Admin2")]
+    //[Authorize(Roles = "Manager")]
+    [Authorize(Policy = "GraduatedOnly")]
     public class AddMovieModel : PageModel
     {
         [BindProperty]
